@@ -5,12 +5,12 @@
 		>
 			<div>
 				&copy;
-				<a href="https://www.hmmd.xyz">Olajide A. Hammed</a>
+				<a href="https://www.hmmd.xyz" class="font-weight-bold">OgbeniHMMD</a>
 			</div>
 
 			<div class="pt-4 pt-md-0">
 				Powered by:
-				<a href="https://github.com">Github</a> /
+				<a href="https://pages.github.com">Github</a> /
 				<a href="https://nuxtjs.org">Nuxt.js</a>
 			</div>
 		</div>
