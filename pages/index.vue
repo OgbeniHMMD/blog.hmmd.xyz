@@ -27,15 +27,10 @@ export default {
 		return {};
 	},
 
-	head() {
-		return {
-			title: "OgbeniHMMD's Blog"
-		};
-	},
-
 	async asyncData({ $content, params, error }) {
-		let articles;
+		// load .md contents from the '/content/artices' directory
 
+		let articles;
 		try {
 			articles = await $content("articles")
 				.only(["title", "slug", "tags", "createdAt", "description"])

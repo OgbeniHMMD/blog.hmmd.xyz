@@ -51,7 +51,7 @@ export default {
 	},
 
 	async asyncData({ $content, params, error }) {
-		// load content from the '/content/artices' directory
+		// fetch content from the '/content/artices' directory
 
 		let article;
 		const slug = "articles/" + params.slug;
