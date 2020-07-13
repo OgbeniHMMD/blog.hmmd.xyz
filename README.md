@@ -1,4 +1,4 @@
-# hmmd-blog
+# blog.hmmd.xyz
 
 ## Build Setup
 
