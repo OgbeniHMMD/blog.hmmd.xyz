@@ -28,10 +28,9 @@ export default {
 	data: function() {
 		return {
 			link: {
-				twitter: process.env.link.twitter,
-				contact: process.env.link.contact,
-				telegram: process.env.link.telegram,
-				github: process.env.link.github
+				contact: "https://www.hmmd.xyz/#contact",
+				github: "https://www.github.com/OgbeniHMMD",
+				twitter: "https://www.twitter.com/OgbeniHMMD"
 			}
 		};
 	}

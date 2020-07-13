@@ -10,12 +10,8 @@
 
 		<nuxt-content :document="article" class="mt-4 lead" />
 
-		<div class="mt-4">
-			<vue-disqus
-				shortname="hmmd"
-				:identifier="$route.params.slug"
-				:url="`https://blog.hmmd.xyz/${$nuxt.$route.fullPath}`"
-			></vue-disqus>
+		<div id="disqus" class="mt-4">
+			<Disqus />
 		</div>
 	</section>
 </template>
