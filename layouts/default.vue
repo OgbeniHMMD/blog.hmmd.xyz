@@ -1,23 +1,10 @@
 <template>
-	<div id="blog">
+	<div>
 		<blog-header />
 		<nuxt />
 		<blog-footer />
 	</div>
 </template>
-
-
-<script>
-import BlogHeader from "~/components/BlogHeader.vue";
-import BlogFooter from "~/components/BlogFooter.vue";
-
-export default {
-	components: {
-		BlogHeader,
-		BlogFooter
-	}
-};
-</script>
 
 
 <style lang="scss">
