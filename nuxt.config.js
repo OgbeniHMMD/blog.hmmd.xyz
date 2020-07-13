@@ -22,9 +22,23 @@ export default {
     ]
   },
 
+  env: {
+    link: {
+      homepage: "https://www.hmmd.xyz/#contact",
+      contact: "https://www.hmmd.xyz/#contact",
+      telegram: "https://t.me/OgbeniHMMD",
+      github: "https://www.github.com/OgbeniHMMD",
+      twitter: "https://www.twitter.com/OgbeniHMMD"
+    },
+    blog: {
+      name: "OgbeniHMMD's Blog",
+      slogan: process.env.npm_package_description
+    }
+  },
+
   css: [],
 
-  plugins: [],
+  plugins: [{ src: "~/plugins/disqus", mode: "client" }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -41,7 +55,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ["Tomorrow&display=swap"]
+      families: ["Quicksand&display=swap"]
     }
   },
   /*
